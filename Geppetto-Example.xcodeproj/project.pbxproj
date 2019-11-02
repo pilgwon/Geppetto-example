@@ -3,27 +3,55 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		1F39EFF9236D73540090D611 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F39EFF8236D73540090D611 /* AppDelegate.swift */; };
 		1F39EFFB236D73540090D611 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F39EFFA236D73540090D611 /* SceneDelegate.swift */; };
-		1F39EFFD236D73540090D611 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F39EFFC236D73540090D611 /* ViewController.swift */; };
-		1F39F000236D73540090D611 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F39EFFE236D73540090D611 /* Main.storyboard */; };
 		1F39F002236D73570090D611 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F39F001236D73570090D611 /* Assets.xcassets */; };
 		1F39F005236D73570090D611 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F39F003236D73570090D611 /* LaunchScreen.storyboard */; };
+		1F39F023236D73980090D611 /* Reader+MonadTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F39F00F236D73980090D611 /* Reader+MonadTransformer.swift */; };
+		1F39F024236D73980090D611 /* Reader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F39F011236D73980090D611 /* Reader.swift */; };
+		1F39F025236D73980090D611 /* Unit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F39F012236D73980090D611 /* Unit.swift */; };
+		1F39F026236D73980090D611 /* OptionalType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F39F013236D73980090D611 /* OptionalType.swift */; };
+		1F39F027236D73980090D611 /* Copyable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F39F015236D73980090D611 /* Copyable.swift */; };
+		1F39F028236D73980090D611 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F39F017236D73980090D611 /* ViewController.swift */; };
+		1F39F029236D73980090D611 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F39F018236D73980090D611 /* View.swift */; };
+		1F39F02A236D73980090D611 /* StateMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F39F01A236D73980090D611 /* StateMachine.swift */; };
+		1F39F02B236D73980090D611 /* Program.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F39F01B236D73980090D611 /* Program.swift */; };
+		1F39F02C236D73980090D611 /* EnvironmentType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F39F01D236D73980090D611 /* EnvironmentType.swift */; };
+		1F39F02D236D73980090D611 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F39F020236D73980090D611 /* Functions.swift */; };
+		1F39F02E236D73980090D611 /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F39F021236D73980090D611 /* Operators.swift */; };
+		1F39F031236D73C30090D611 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F39F030236D73C30090D611 /* MainViewController.swift */; };
+		1F39F033236D73C80090D611 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F39F032236D73C80090D611 /* Main.swift */; };
+		B7AEF23C3A206E157C98908F /* Pods_Geppetto_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A5FCD1CE8BD9F5601CF3CBC /* Pods_Geppetto_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1F39EFF5236D73540090D611 /* Geppetto-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Geppetto-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F39EFF8236D73540090D611 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1F39EFFA236D73540090D611 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1F39EFFC236D73540090D611 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1F39EFFF236D73540090D611 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1F39F001236D73570090D611 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F39F004236D73570090D611 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1F39F006236D73570090D611 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F39F00F236D73980090D611 /* Reader+MonadTransformer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Reader+MonadTransformer.swift"; sourceTree = "<group>"; };
+		1F39F011236D73980090D611 /* Reader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reader.swift; sourceTree = "<group>"; };
+		1F39F012236D73980090D611 /* Unit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Unit.swift; sourceTree = "<group>"; };
+		1F39F013236D73980090D611 /* OptionalType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionalType.swift; sourceTree = "<group>"; };
+		1F39F015236D73980090D611 /* Copyable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Copyable.swift; sourceTree = "<group>"; };
+		1F39F017236D73980090D611 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1F39F018236D73980090D611 /* View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		1F39F01A236D73980090D611 /* StateMachine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StateMachine.swift; sourceTree = "<group>"; };
+		1F39F01B236D73980090D611 /* Program.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Program.swift; sourceTree = "<group>"; };
+		1F39F01D236D73980090D611 /* EnvironmentType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnvironmentType.swift; sourceTree = "<group>"; };
+		1F39F020236D73980090D611 /* Functions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
+		1F39F021236D73980090D611 /* Operators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Operators.swift; sourceTree = "<group>"; };
+		1F39F030236D73C30090D611 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		1F39F032236D73C80090D611 /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
+		30FDB18DF8097AD168BC34D9 /* Pods-Geppetto-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Geppetto-Example.release.xcconfig"; path = "Target Support Files/Pods-Geppetto-Example/Pods-Geppetto-Example.release.xcconfig"; sourceTree = "<group>"; };
+		4A5FCD1CE8BD9F5601CF3CBC /* Pods_Geppetto_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Geppetto_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		58955FE11B5456EDCEA4E18D /* Pods-Geppetto-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Geppetto-Example.debug.xcconfig"; path = "Target Support Files/Pods-Geppetto-Example/Pods-Geppetto-Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7AEF23C3A206E157C98908F /* Pods_Geppetto_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +71,8 @@
 			children = (
 				1F39EFF7236D73540090D611 /* Geppetto-Example */,
 				1F39EFF6236D73540090D611 /* Products */,
+				9908136D0B547D090B0B2BF6 /* Pods */,
+				BFA6C82A450D31D283DDEE4C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +87,116 @@
 		1F39EFF7236D73540090D611 /* Geppetto-Example */ = {
 			isa = PBXGroup;
 			children = (
+				1F39F00C236D73980090D611 /* Libraries */,
 				1F39EFF8236D73540090D611 /* AppDelegate.swift */,
 				1F39EFFA236D73540090D611 /* SceneDelegate.swift */,
-				1F39EFFC236D73540090D611 /* ViewController.swift */,
-				1F39EFFE236D73540090D611 /* Main.storyboard */,
+				1F39F030236D73C30090D611 /* MainViewController.swift */,
+				1F39F032236D73C80090D611 /* Main.swift */,
 				1F39F001236D73570090D611 /* Assets.xcassets */,
 				1F39F003236D73570090D611 /* LaunchScreen.storyboard */,
 				1F39F006236D73570090D611 /* Info.plist */,
 			);
 			path = "Geppetto-Example";
+			sourceTree = "<group>";
+		};
+		1F39F00C236D73980090D611 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				1F39F00D236D73980090D611 /* Geppetto */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		1F39F00D236D73980090D611 /* Geppetto */ = {
+			isa = PBXGroup;
+			children = (
+				1F39F00E236D73980090D611 /* MonadTransformers */,
+				1F39F010236D73980090D611 /* Types */,
+				1F39F014236D73980090D611 /* Util */,
+				1F39F016236D73980090D611 /* View */,
+				1F39F019236D73980090D611 /* Program */,
+				1F39F01C236D73980090D611 /* Environment */,
+				1F39F01F236D73980090D611 /* Functional */,
+			);
+			path = Geppetto;
+			sourceTree = "<group>";
+		};
+		1F39F00E236D73980090D611 /* MonadTransformers */ = {
+			isa = PBXGroup;
+			children = (
+				1F39F00F236D73980090D611 /* Reader+MonadTransformer.swift */,
+			);
+			path = MonadTransformers;
+			sourceTree = "<group>";
+		};
+		1F39F010236D73980090D611 /* Types */ = {
+			isa = PBXGroup;
+			children = (
+				1F39F011236D73980090D611 /* Reader.swift */,
+				1F39F012236D73980090D611 /* Unit.swift */,
+				1F39F013236D73980090D611 /* OptionalType.swift */,
+			);
+			path = Types;
+			sourceTree = "<group>";
+		};
+		1F39F014236D73980090D611 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				1F39F015236D73980090D611 /* Copyable.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		1F39F016236D73980090D611 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1F39F017236D73980090D611 /* ViewController.swift */,
+				1F39F018236D73980090D611 /* View.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1F39F019236D73980090D611 /* Program */ = {
+			isa = PBXGroup;
+			children = (
+				1F39F01A236D73980090D611 /* StateMachine.swift */,
+				1F39F01B236D73980090D611 /* Program.swift */,
+			);
+			path = Program;
+			sourceTree = "<group>";
+		};
+		1F39F01C236D73980090D611 /* Environment */ = {
+			isa = PBXGroup;
+			children = (
+				1F39F01D236D73980090D611 /* EnvironmentType.swift */,
+			);
+			path = Environment;
+			sourceTree = "<group>";
+		};
+		1F39F01F236D73980090D611 /* Functional */ = {
+			isa = PBXGroup;
+			children = (
+				1F39F020236D73980090D611 /* Functions.swift */,
+				1F39F021236D73980090D611 /* Operators.swift */,
+			);
+			path = Functional;
+			sourceTree = "<group>";
+		};
+		9908136D0B547D090B0B2BF6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				58955FE11B5456EDCEA4E18D /* Pods-Geppetto-Example.debug.xcconfig */,
+				30FDB18DF8097AD168BC34D9 /* Pods-Geppetto-Example.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BFA6C82A450D31D283DDEE4C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A5FCD1CE8BD9F5601CF3CBC /* Pods_Geppetto_Example.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +206,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1F39F009236D73570090D611 /* Build configuration list for PBXNativeTarget "Geppetto-Example" */;
 			buildPhases = (
+				08065605D8105883D4E99433 /* [CP] Check Pods Manifest.lock */,
 				1F39EFF1236D73540090D611 /* Sources */,
 				1F39EFF2236D73540090D611 /* Frameworks */,
 				1F39EFF3236D73540090D611 /* Resources */,
+				AAD70904F2A3B3A263D0B258 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,19 +261,73 @@
 			files = (
 				1F39F005236D73570090D611 /* LaunchScreen.storyboard in Resources */,
 				1F39F002236D73570090D611 /* Assets.xcassets in Resources */,
-				1F39F000236D73540090D611 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		08065605D8105883D4E99433 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Geppetto-Example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AAD70904F2A3B3A263D0B258 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Geppetto-Example/Pods-Geppetto-Example-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Geppetto-Example/Pods-Geppetto-Example-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Geppetto-Example/Pods-Geppetto-Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1F39EFF1236D73540090D611 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F39EFFD236D73540090D611 /* ViewController.swift in Sources */,
+				1F39F027236D73980090D611 /* Copyable.swift in Sources */,
+				1F39F023236D73980090D611 /* Reader+MonadTransformer.swift in Sources */,
+				1F39F029236D73980090D611 /* View.swift in Sources */,
+				1F39F02D236D73980090D611 /* Functions.swift in Sources */,
+				1F39F02C236D73980090D611 /* EnvironmentType.swift in Sources */,
+				1F39F028236D73980090D611 /* ViewController.swift in Sources */,
+				1F39F024236D73980090D611 /* Reader.swift in Sources */,
+				1F39F02A236D73980090D611 /* StateMachine.swift in Sources */,
+				1F39F025236D73980090D611 /* Unit.swift in Sources */,
+				1F39F031236D73C30090D611 /* MainViewController.swift in Sources */,
+				1F39F033236D73C80090D611 /* Main.swift in Sources */,
+				1F39F02B236D73980090D611 /* Program.swift in Sources */,
+				1F39F02E236D73980090D611 /* Operators.swift in Sources */,
 				1F39EFF9236D73540090D611 /* AppDelegate.swift in Sources */,
+				1F39F026236D73980090D611 /* OptionalType.swift in Sources */,
 				1F39EFFB236D73540090D611 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,14 +335,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		1F39EFFE236D73540090D611 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1F39EFFF236D73540090D611 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1F39F003236D73570090D611 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,11 +462,13 @@
 		};
 		1F39F00A236D73570090D611 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58955FE11B5456EDCEA4E18D /* Pods-Geppetto-Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 68L248M44U;
 				INFOPLIST_FILE = "Geppetto-Example/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -294,17 +476,19 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "co.geppetto.Geppetto-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		1F39F00B236D73570090D611 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30FDB18DF8097AD168BC34D9 /* Pods-Geppetto-Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 68L248M44U;
 				INFOPLIST_FILE = "Geppetto-Example/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -312,7 +496,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "co.geppetto.Geppetto-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
