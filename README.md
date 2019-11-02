@@ -1,2 +1,3 @@
 # Geppetto-example
-# geppetto-example
+
+![GEPPETTO-EXAMPLE.gif](/geppetto-example.gif)
